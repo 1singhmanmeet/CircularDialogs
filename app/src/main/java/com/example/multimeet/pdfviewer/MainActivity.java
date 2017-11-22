@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void createDialog(){
-        new CDialog(this).createAlert("Created successfully","",
+        new CDialog(this).createAlert("Created successfully",
                 CDConstants.ERROR, CDConstants.LARGE)
                 .setAnimation(CDConstants.SCALE_FROM_BOTTOM_TO_TOP)
                 .setDuration(2000)

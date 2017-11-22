@@ -44,7 +44,7 @@ public class CDialog {
     }
 
 
-    public CDialog createAlert(String message,String semiText,int alertType,int givenSize){
+    public CDialog createAlert(String message,int alertType,int givenSize){
         dialog.getWindow().setBackgroundDrawableResource(R.drawable.round_back);
         dialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.simple_text);
